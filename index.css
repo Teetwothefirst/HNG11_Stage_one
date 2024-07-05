@@ -3,13 +3,13 @@
     margin: 0;
     padding: 0;
 }
-body{
+/* body{
     background-color: #ACC8E5;
     color: #112A46;
-}
+} */
 a{
-    color: black;
-    text-decoration: none;
+    color: #4B5658;
+    /* text-decoration: none; */
 
 }
 header{
@@ -178,6 +178,12 @@ footer{
     padding: 0 2em 5em 2em;
 
 }
-@media screen and (max-width: 750px) {
-    
+.techJourney{
+    text-align: center;
 }
+.hng-text{
+  color:  #112A46;
+}
+/* @media screen and (max-width: 750px) {
+    
+} */
