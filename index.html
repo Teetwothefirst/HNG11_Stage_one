@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="icon" href="favicon.ico" type="image/png" />
 	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 	<link href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" rel="stylesheet">
     <title>Personal Website</title>
 </head>
@@ -60,9 +61,9 @@
                         I am not merely an engineer; I am an architect crafting symphonies of user experience that resonate deeply within the digital realm. 
                     </div>
                 </aside>
-                <aside>
+                <aside id="disapearOnSmall">
                     <div> <!-- max-width="none" -->
-                    <div>
+                    <div >
                         <div class="p-img"><img src="./profileImg-1.png" alt="" width="auto"  height="auto" data-testid="slackProfilePicture"></div>
                     </div>
                     </div>
@@ -74,8 +75,9 @@
 
             
             <!--  What are you going to be doing for the next two years-->
-              <div class="" id="Journey">
-                <h3>My Journey</h3>
+              <div class="journey" id="Journey">
+                <div>
+                    <h3>My Journey</h3>
                 <div>
                     From Keyboard to Cultivator: My Tech Odyssey to a Greener Future
                 </div>
@@ -91,19 +93,26 @@
                     <div class="cards-picture"><img src="" alt=""></div>
                     <div class="card-text">I aim to develop an agricultural security product that can increase crop yield by 50% and reduce food waste by 75% within the next two years.This is just the beginning. Stay tuned as I embark on this exciting journey, and feel free to reach out if you share my passion for a greener future through technology!</div>
                 </div>
+                </div>
+                
               </div>
-            <!-- Contact -->
+           
 
         </main>
         <hr>
-        <footer id="foot">
+        <!-- footer -->
+        <footer>
+             <!-- Contact -->         
+            <div>
+                <p>Reach me <br> <i class="bi bi-envelope"></i> <strong data-testid="slackEmail">dexterdavid835@gmail.com</strong></p>
+                <p>Call me: <br><strong><i class="bi bi-telephone-fill"></i>09038786424</strong></p>
+            </div>
+             
             <!-- Socials -->
-            <div><p>Slack Email: <strong data-testid="slackEmail">dexterdavid835@gmail.com</strong></p></div>
-
             <div class="">
-                Wanna Learn something new?
-                <a href="hng.tech/learn">HNG Learn</a>
-                <a href=" keyword.dog">Word Smith</a>
+                <p>Wanna Learn something new? Visit</p>
+                <a href="hng.tech/learn">HNG Learn</a><br>
+                <a href=" keyword.dog">Word Smith</a><br>
                 <a href="scrapeanyweb.site">Scrape Any Website (Free Tool)</a>
             </div>
         </footer>
