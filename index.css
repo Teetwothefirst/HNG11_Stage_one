@@ -1,0 +1,152 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ACC8E5;
+    color: #112A46;
+}
+a{
+    color: black;
+    text-decoration: none;
+
+}
+header{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+.p-img{
+    width: 100%;
+}
+.container > .header{
+    background: #EDEDED;
+	color: #4B5658;
+}
+.container > main{
+    background: #4B5658;
+    color: #EDEDED;
+}
+.container > footer{
+    background-color:#EDEDED;
+    color:#4B5658;
+}
+.icons-social a {
+	color: #EDEDED;
+}
+
+.icons-social a svg path{
+	fill: #EDEDED;
+}
+
+
+@media only screen and (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+    .About{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+    img{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+    .About{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+    .About{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+    .About{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+section {
+	display: flex;
+	flex-direction: column;
+	min-height: 50vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+}
+
+section > .intro {
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 3.75em;
+	font-weight: 600;
+}
+
+section > .tagline {
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: 100;
+}
+
+.icons-social i {
+	padding: 10px;
+}
+
+.icons-social a {
+  text-decoration: none;
+}
+
+.devto {
+	margin-bottom: -0.20rem;
+}
+
+.devto svg {
+	margin-bottom: -0.20rem;
+	margin-left: 0.675rem;;
+	width: 2.65rem;
+	height: 2.65rem;
+}
+.aside1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-us > h2{
+    text-align: center;
+}
+.about-us > p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+@media screen and (max-width: 750px) {
+    
+}

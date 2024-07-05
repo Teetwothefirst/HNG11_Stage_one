@@ -4,9 +4,10 @@ time.innerText = date.toUTCString();
 
 let Day_of_week = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday', 'Sunday'];
 let Day_of_week_select = new Date();
+
+today.innerText = Day_of_week[Day_of_week_select.getDay()- 1]
 console.log(Day_of_week_select.getDay())
 console.log(Day_of_week[Day_of_week_select.getDay()- 1]);
-
 
 // function toUTC(){
 //     const useWeek = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];

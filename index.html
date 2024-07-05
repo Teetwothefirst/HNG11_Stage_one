@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Person Websit</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="favicon.ico" type="image/png" />
+	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" rel="stylesheet">
+    <title>Personal Website</title>
 </head>
 <body>
     <!-- Task -->
@@ -17,45 +21,87 @@
 
         <main>
             <!-- home - Image and description -->
-             
+
+            <section>
+                <div class="intro" data-testid="slackDisplayName">Hello, I'm Teetwo!</div>
+                <div class="tagline">Web Developer | Software Engineer | Embedded Systems and IoT</div>
+                <!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
+                <div class="icons-social">
+                    <a target="_blank" href="https://github.com/Teetwothefirst">
+                <i class="fab fa-github" aria-hidden="true" title="Github"></i>
+                <span class="sr-only">Github</span>
+                </a>
+              <a target="_blank" href="https://x.com/Teetwo__?t=VrCmDibmWlMIj8iOC5OxAg&s=09">
+                <i class="fab fa-twitter" aria-hidden="true" title="Twitter"></i>
+                <span class="sr-only">Twitter</span>
+              </a>
+              <a target="_blank" href="www.linkedin.com/in/adetomiwa-adejumo">
+                <i class="fab fa-linkedin" aria-hidden="true" title="LinkedIn"></i>
+                <span class="sr-only">LinkedIn</span>
+              </a>
+              <!-- https://medium.com/@dexterdavid835 -->
+              <a target="_blank" href="https://medium.com/@dexterdavid835">
+                <i class="fab fa-medium" aria-hidden="true" title="Medium"></i>
+                <span class="sr-only">Medium</span>
+              </a>
+              <a target="_blank" href="https://www.freecodecamp.org/Teetwo">
+                <i class="fab fa-free-code-camp" aria-hidden="true" title="FreeCodeCamp"></i>
+                <span class="sr-only">FreeCodeCamp</span>
+              </a>
+                </div>
+                <div data-testid="currentDay">What's Today date ? <strong id="today"></strong><br><span id="today-date" data-testid="currentTimeUTC"></span></div> 
+            </section>
+
+            <div class="About">
+                <aside class="aside1">
+                    <div class="about-us">
+                    <h2>About ME!</h2>
+                    <p>I am a AI software Engineer with focus in Automation, Health-Care and Agriculture. 
+                        I am not merely an engineer; I am an architect crafting symphonies of user experience that resonate deeply within the digital realm. 
+                    </div>
+                </aside>
+                <aside><div>
+                    <!-- max-width="none" -->
+                    <div>
+                        <div class="p-img"><img src="./profileImg-1.png" alt="" width="auto"  height="auto" data-testid="slackProfilePicture"></div>
+                    </div>
+                    </div>
+                </aside>
+            </div>
+            
 
             <!-- About - -->
-            <div id="About">
-                <p>I am a AI software Engineer with focus in Automation, Health-Care and Agriculture. 
-                    I am not merely an engineer; I am an architect crafting symphonies of user experience that resonate deeply within the digital realm. 
-                    As a multifaceted software engineer, I infuse each line of code with intention and innovation, blending front-end artistry with back-end mastery to create visually appealing and highly functional web applications.</p>
-            </div>
-            <!-- Slack Details -->
-             <div>
-                <div><p data-testid="slackDisplayName">Slack Username: <strong>Teetwo</strong></p></div>
-                <p data-testid="currentDay">What's Today date ? <strong id=""></strong></p>
-                <div id="today-date" data-testid="currentTimeUTC"></div>
-                <div><p>Slack Email: <strong>dexterdavid835@gmail.com</strong></p></div>
-                <div>
-                    <p>Slack Image: <img src="./Profile.jpg" alt="" width="auto" height="auto"></p>
-                </div>
-             </div>
+            
+            
+            
+            
             <!--  What are you going to be doing for the next two years-->
-              <div class="">
+              <div class="" id="Journey">
                 <h3>My Journey</h3>
                 <div>
                     From Keyboard to Cultivator: My Tech Odyssey to a Greener Future
                 </div>
                 <div class="cards">
-
                     <div class="cards-picture"><img src="" alt=""></div>
-                    <div class="card-text"></div>
+                    <div class="card-text">Imagine a world where robots safeguard our crops, ensuring food security for generations to come. That's the future I'm building, one line of code at a time.</div>
                 </div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div>
+                    <div class="cards-picture"><img src="" alt=""></div>
+                    <div class="card-text">My journey begins with a deep dive into robotics through my Master's program. This knowledge will be the backbone of my agricultural security product, an innovation designed to fight food scarcity and food security.</div>
+                </div>
+                <div>
+                    <div class="cards-picture"><img src="" alt=""></div>
+                    <div class="card-text">I aim to develop an agricultural security product that can increase crop yield by 50% and reduce food waste by 75% within the next two years.This is just the beginning. Stay tuned as I embark on this exciting journey, and feel free to reach out if you share my passion for a greener future through technology!</div>
+                </div>
               </div>
             <!-- Contact -->
 
         </main>
-        
-        <footer>
+        <hr>
+        <footer id="foot">
             <!-- Socials -->
+            <div><p>Slack Email: <strong data-testid="slackEmail">dexterdavid835@gmail.com</strong></p></div>
+
             <div class="">
                 Wanna Learn something new?
                 <a href="hng.tech/learn">HNG Learn</a>
